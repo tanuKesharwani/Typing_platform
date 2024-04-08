@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FormGroup, FormControlLabel, Switch } from '@material-ui/core';
-import './App.css'; // Import your CSS file for styling
+import './App.css'; 
 
 function App() {
     const [text, setText] = useState('');
