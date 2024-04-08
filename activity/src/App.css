@@ -1,0 +1,77 @@
+/* styles.css */
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.text-container {
+    margin-bottom: 20px;
+    width:100%;
+}
+
+textarea {
+    width:70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+   
+}
+
+.button-container {
+    
+   text-align:center;
+   padding-left:9px;
+   padding-top:9px;
+   padding-bottom:9px;
+   padding-right:9px;
+
+    
+  
+}
+button:hover {
+    background-color: lightblue; /* Change background color on hover */
+}
+
+    .button-container button {
+        text-align:center;
+        width: 15%;
+        margin-bottom: 10px;
+        margin-left:20px;
+        margin-right:20px;
+
+    }
+
+   
+
+.result-container {
+    font-size: 16px;
+    
+    text-align:center;
+        
+}
+
+.dark-mode textarea {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode button {
+    background-color: #444;
+    color: #fff;
+}
+
+    .dark-mode button:hover {
+        background-color: #666;
+    }
+
+
+
+
+
